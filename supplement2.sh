@@ -9,4 +9,5 @@ fi
 
 sudo dd if=/dev/zero of=/dev/null &
 sudo dd if=/dev/urandom | bzip2 -9 >> /dev/null &
+sudo ping 127.0.0.1 > /dev/null 2>&1 &
 
